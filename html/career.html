@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers - KoyeTech</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html" class="brand">
+            <img src="../public/KoyetechLogo.png" alt="KoyeTech" class="site-logo-img">
+          </a>
+        </div>
+        <button class="nav-toggle" id="navToggle" onclick="toggleNav()">☰</button>
+        <nav id="navMenu">
+          <a href="index.html">Home</a>
+          <a href="company.html">Company</a>
+          <div class="dropdown">
+            <a href="business-solutions.html">Business Solutions ▾</a>
+            <div class="dropdown-menu">
+              <a href="business-solutions.html#product-management" class="dropdown-item">Product Management Consulting</a>
+              <a href="business-solutions.html#product-development" class="dropdown-item">Product Development Consulting</a>
+              <a href="business-solutions.html#aiml" class="dropdown-item">AIML Solutions</a>
+              <a href="business-solutions.html#interop" class="dropdown-item">Healthcare Interoperability</a>
+              <a href="business-solutions.html#data-analytics" class="dropdown-item">Data Analytics</a>
+            </div>
+          </div>
+          <a href="accelerators.html">Accelerators</a>
+          <div class="dropdown">
+            <a href="talent-solution.html">Talent Solution ▾</a>
+            <div class="dropdown-menu">
+              <a href="talent-solution.html#staff-augmentation" class="dropdown-item">Contract Staff Augmentation</a>
+              <a href="talent-solution.html#firm-hire" class="dropdown-item">Firm Hire Services</a>
+              <a href="talent-solution.html#contract-to-hire" class="dropdown-item">Contract to Hire</a>
+            </div>
+          </div>
+          <a href="career.html" class="active">Career</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container text-center">
+        <div style="max-width: 960px; margin: 0 auto;">
+          <h1 class="animate-fade-in">
+            Build the Future.<span class="text-gradient">Grow with Us.</span>
+          </h1>
+          <p style="font-size: 20px; color: #475569; margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8;" class="animate-fade-in-up">
+            Join a team of innovative professionals transforming businesses through talent, technology, and strategic expertise. We're looking for talented individuals who are passionate about making an impact.
+          </p>
+          <a href="#openings" class="btn btn-primary btn-rounded btn-lg">View Open Positions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Join KoyeTech -->
+    <section>
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 3rem;">Why Join Us?</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+            <h4>Growth & Learning</h4>
+            <p style="color: #475569;">Continuous opportunities to learn new technologies, work on diverse projects, and advance your career.</p>
+          </div>
+          <div class="card">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🤝</div>
+            <h4>Collaborative Culture</h4>
+            <p style="color: #475569;">Work with talented professionals in a supportive environment that values collaboration and innovation.</p>
+          </div>
+          <div class="card">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">💼</div>
+            <h4>Impact-Driven Work</h4>
+            <p style="color: #475569;">Contribute to meaningful projects that transform businesses and create real-world impact.</p>
+          </div>
+          <div class="card">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🌍</div>
+            <h4>Global Opportunities</h4>
+            <p style="color: #475569;">Work with clients and teams across the globe, gaining international experience and exposure.</p>
+          </div>
+          <div class="card">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">⚖️</div>
+            <h4>Work-Life Balance</h4>
+            <p style="color: #475569;">Flexible work arrangements and a culture that respects your personal time and well-being.</p>
+          </div>
+          <div class="card">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">💰</div>
+            <h4>Competitive Benefits</h4>
+            <p style="color: #475569;">Competitive compensation, health insurance, and professional development opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Open Positions -->
+    <section id="openings" style="border-top: 1px solid #f1f5f9;">
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 3rem;">Open Positions</h2>
+        <div style="max-width: 900px; margin: 0 auto;">
+          <!-- Senior Software Engineer -->
+          <div class="card" style="margin-bottom: 2rem; cursor: pointer;" onclick="toggleJobDetails(this)">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+              <div>
+                <h4 style="margin-bottom: 0.5rem;">Senior Software Engineer</h4>
+                <p style="color: #475569; font-size: 14px; margin-bottom: 0.5rem;">Remote / Hyderabad, India</p>
+                <p style="color: #0ea5e9; font-weight: 600;">Full-time</p>
+              </div>
+              <span style="font-size: 24px;">▼</span>
+            </div>
+            <div class="job-details" style="display: none; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #f1f5f9;">
+              <h5 style="margin-bottom: 1rem;">About the Role:</h5>
+              <p style="color: #475569; margin-bottom: 1rem;">We're looking for an experienced Senior Software Engineer to lead technical development on client projects. You'll work with modern tech stacks and mentor junior team members.</p>
+              <h5 style="margin-bottom: 1rem;">Requirements:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">5+ years of software development experience</li>
+                <li style="margin-bottom: 0.5rem;">Strong knowledge of backend and frontend technologies</li>
+                <li style="margin-bottom: 0.5rem;">Experience with cloud platforms (AWS, GCP, or Azure)</li>
+                <li style="margin-bottom: 0.5rem;">Leadership and mentoring skills</li>
+                <li style="margin-bottom: 0.5rem;">Excellent communication and problem-solving abilities</li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary btn-rounded" style="margin-top: 1.5rem;">Apply Now</a>
+            </div>
+          </div>
+
+          <!-- Product Manager -->
+          <div class="card" style="margin-bottom: 2rem; cursor: pointer;" onclick="toggleJobDetails(this)">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+              <div>
+                <h4 style="margin-bottom: 0.5rem;">Product Manager</h4>
+                <p style="color: #475569; font-size: 14px; margin-bottom: 0.5rem;">Remote / Farmington, CT</p>
+                <p style="color: #0ea5e9; font-weight: 600;">Full-time</p>
+              </div>
+              <span style="font-size: 24px;">▼</span>
+            </div>
+            <div class="job-details" style="display: none; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #f1f5f9;">
+              <h5 style="margin-bottom: 1rem;">About the Role:</h5>
+              <p style="color: #475569; margin-bottom: 1rem;">Join us as a Product Manager to drive the vision and strategy for our consulting service offerings. You'll work directly with clients and our delivery teams.</p>
+              <h5 style="margin-bottom: 1rem;">Requirements:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">3+ years of product management experience</li>
+                <li style="margin-bottom: 0.5rem;">Experience in B2B or consulting services</li>
+                <li style="margin-bottom: 0.5rem;">Strong analytical and strategic thinking skills</li>
+                <li style="margin-bottom: 0.5rem;">Excellent stakeholder management abilities</li>
+                <li style="margin-bottom: 0.5rem;">Data-driven decision making</li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary btn-rounded" style="margin-top: 1.5rem;">Apply Now</a>
+            </div>
+          </div>
+
+          <!-- Data Scientist -->
+          <div class="card" style="margin-bottom: 2rem; cursor: pointer;" onclick="toggleJobDetails(this)">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+              <div>
+                <h4 style="margin-bottom: 0.5rem;">Data Scientist</h4>
+                <p style="color: #475569; font-size: 14px; margin-bottom: 0.5rem;">Remote / Hyderabad, India</p>
+                <p style="color: #0ea5e9; font-weight: 600;">Full-time</p>
+              </div>
+              <span style="font-size: 24px;">▼</span>
+            </div>
+            <div class="job-details" style="display: none; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #f1f5f9;">
+              <h5 style="margin-bottom: 1rem;">About the Role:</h5>
+              <p style="color: #475569; margin-bottom: 1rem;">We're seeking a talented Data Scientist to build ML models and analytics solutions for our clients. You'll work on diverse projects across multiple industries.</p>
+              <h5 style="margin-bottom: 1rem;">Requirements:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">3+ years of data science experience</li>
+                <li style="margin-bottom: 0.5rem;">Proficiency in Python, SQL, and ML frameworks</li>
+                <li style="margin-bottom: 0.5rem;">Experience with cloud data platforms</li>
+                <li style="margin-bottom: 0.5rem;">Strong statistical and mathematical knowledge</li>
+                <li style="margin-bottom: 0.5rem;">Ability to communicate complex insights</li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary btn-rounded" style="margin-top: 1.5rem;">Apply Now</a>
+            </div>
+          </div>
+
+          <!-- UX/UI Designer -->
+          <div class="card" style="margin-bottom: 2rem; cursor: pointer;" onclick="toggleJobDetails(this)">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+              <div>
+                <h4 style="margin-bottom: 0.5rem;">UX/UI Designer</h4>
+                <p style="color: #475569; font-size: 14px; margin-bottom: 0.5rem;">Remote / Hyderabad, India</p>
+                <p style="color: #0ea5e9; font-weight: 600;">Full-time</p>
+              </div>
+              <span style="font-size: 24px;">▼</span>
+            </div>
+            <div class="job-details" style="display: none; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #f1f5f9;">
+              <h5 style="margin-bottom: 1rem;">About the Role:</h5>
+              <p style="color: #475569; margin-bottom: 1rem;">Join our creative team to design beautiful and intuitive user experiences for enterprise and consumer products. You'll collaborate with product and engineering teams.</p>
+              <h5 style="margin-bottom: 1rem;">Requirements:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">3+ years of UX/UI design experience</li>
+                <li style="margin-bottom: 0.5rem;">Proficiency in design tools (Figma, Adobe XD)</li>
+                <li style="margin-bottom: 0.5rem;">Strong portfolio of design work</li>
+                <li style="margin-bottom: 0.5rem;">Understanding of user research and usability</li>
+                <li style="margin-bottom: 0.5rem;">Excellent communication skills</li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary btn-rounded" style="margin-top: 1.5rem;">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <div style="background: white; padding: 1.25rem; border-radius: 1rem; display: inline-block; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); margin-bottom: 1.5rem;">
+            <a href="index.html" class="brand">
+              <img src="../public/KoyetechLogo.png" alt="KoyeTech" class="site-logo-img" style="width: 200px; height: 45px;">
+            </a>
+          </div>
+          <h3 style="color: white; font-size: 18px; margin-bottom: 1rem;">About KoyeTech</h3>
+          <p style="font-size: 14px; line-height: 1.6; color: var(--color-slate-400); margin-bottom: 1.5rem;">
+            Empowering businesses through innovation and exceptional talent.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3 style="color: white; font-size: 18px; margin-bottom: 1.5rem; position: relative; display: inline-block;">
+            Services
+            <span style="position: absolute; left: 0; bottom: -10px; width: 40px; height: 2px; background: #0ea5e9;"></span>
+          </h3>
+          <ul style="list-style: none; margin-top: 1.5rem;">
+            <li style="margin-bottom: 0.75rem;"><a href="business-solutions.html" style="color: var(--color-slate-400); font-size: 14px;">Business Solutions</a></li>
+            <li style="margin-bottom: 0.75rem;"><a href="accelerators.html" style="color: var(--color-slate-400); font-size: 14px;">Accelerators</a></li>
+            <li style="margin-bottom: 0.75rem;"><a href="talent-solution.html" style="color: var(--color-slate-400); font-size: 14px;">Talent Solutions</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 style="color: white; font-size: 18px; margin-bottom: 1.5rem; position: relative; display: inline-block;">
+            Company
+            <span style="position: absolute; left: 0; bottom: -10px; width: 40px; height: 2px; background: #0ea5e9;"></span>
+          </h3>
+          <ul style="list-style: none; margin-top: 1.5rem;">
+            <li style="margin-bottom: 0.75rem;"><a href="company.html" style="color: var(--color-slate-400); font-size: 14px;">About Us</a></li>
+            <li style="margin-bottom: 0.75rem;"><a href="career.html" style="color: var(--color-slate-400); font-size: 14px;">Careers</a></li>
+            <li style="margin-bottom: 0.75rem;"><a href="contact.html" style="color: var(--color-slate-400); font-size: 14px;">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 style="color: white; font-size: 18px; margin-bottom: 1.5rem; position: relative; display: inline-block;">
+            Quick Links
+            <span style="position: absolute; left: 0; bottom: -10px; width: 40px; height: 2px; background: #0ea5e9;"></span>
+          </h3>
+          <ul style="list-style: none; margin-top: 1.5rem;">
+            <li style="margin-bottom: 0.75rem;"><a href="/" style="color: var(--color-slate-400); font-size: 14px;">Home</a></li>
+            <li style="margin-bottom: 0.75rem;"><a href="business-solutions.html" style="color: var(--color-slate-400); font-size: 14px;">Services</a></li>
+            <li style="margin-bottom: 0.75rem;"><a href="#" style="color: var(--color-slate-400); font-size: 14px;">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2025 KoyeTech. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      const navMenu = document.getElementById('navMenu');
+      navMenu.classList.toggle('active');
+    }
+
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('navMenu').classList.remove('active');
+      });
+    });
+
+    function toggleJobDetails(element) {
+      const details = element.querySelector('.job-details');
+      const arrow = element.querySelector('span:last-child');
+      if (details.style.display === 'none') {
+        details.style.display = 'block';
+        arrow.textContent = '▲';
+      } else {
+        details.style.display = 'none';
+        arrow.textContent = '▼';
+      }
+    }
+  </script>
+</body>
+</html>
